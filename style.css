@@ -40,4 +40,23 @@ body {
   background: black;
   position: absolute;
   top: 50%;
+  text-align: center;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+}
+
+.second-hand {
+  height: 3px;
+  background-color: tomato;
+}
+
+.min-hand {
+  left: 5%;
+  width: 45%;
+}
+
+.hour-hand {
+  left: 15%;
+  width: 35%;
+  height: 1rem;
 }
